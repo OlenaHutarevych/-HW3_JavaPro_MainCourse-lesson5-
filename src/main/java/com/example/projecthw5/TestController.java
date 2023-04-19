@@ -9,6 +9,13 @@ package com.example.projecthw5;
 //        3.4 Добавить настроечку в application.properties чтобі біло відно сообщение ошибки в ответе:
 //        server.error.include-message=always
 
+//Домашнее задание 6:
+
+//2. Попробовать собрать нашу программу через коммандную строку(в корне приложения через terminal віполнить 'mvn clean install') а также через интерфейс idea.
+//        3. Добавить библиотеку lombok к нашему проекту: https://mvnrepository.com/artifact/org.projectlombok/lombok
+//        4. Добавить аннотацию @Data над описанием класса для цитаті(Quote). Єто аннотация из библиотеки lombok, которая автоматически вставляет в класс getters/setters/toString/equals/hashCode. Теперь не нужно будет писать єто вручную или автогенерировать.
+//        5. Доделать домашки из прошлого занятия.
+
 
 
 import org.springframework.validation.annotation.Validated;
